@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@views": ["./src/views"],
+        "@root": ["./src"]
+      }
+    }
+  }
