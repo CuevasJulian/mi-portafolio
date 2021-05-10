@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typography, Row, Col, Image, Divider, Button } from 'antd';
-import { AppstoreOutlined } from '@ant-design/icons'
+import { AppstoreOutlined } from '@ant-design/icons';
+import { ImagesFiles } from '@utils';
 import './style.scss';
 
 const TabReem = ( props ) => {
@@ -11,26 +12,26 @@ const TabReem = ( props ) => {
                 <Title>Proyecto Reem</Title>
             </Col>
             <Col span={24}>
-                <Image src={'./assets/proyectos/reem/background.png'}/>
+                <Image src={ImagesFiles.reem_label}/>
             </Col>
             <Col span={24}>
                 <Divider />
                 <Title level={4}>Tecnologías</Title>
                 <Row gutter={[10,10]}>
                     <Col span={3}>
-                        <Image src={'./logo192.png'}/>
+                        <Image src={ImagesFiles.icon_react}/>
                     </Col>
                     <Col span={3}>
-                        <Image src={'./assets/icons/android-icon.png'}/>
+                        <Image src={ImagesFiles.icon_android}/>
                     </Col>
                     <Col span={3}>
-                        <Image src={'./assets/icons/nodejs.png'}/>
+                        <Image src={ImagesFiles.icon_node}/>
                     </Col>
                     <Col span={3}>
-                        <Image src={'./assets/icons/aws.png'}/>
+                        <Image src={ImagesFiles.icon_aws}/>
                     </Col>
                     <Col span={3}>
-                        <Image src={'./assets/icons/mysql-icon.png'}/>
+                        <Image src={ImagesFiles.icon_mysql}/>
                     </Col>
                 </Row>
                 <Divider />

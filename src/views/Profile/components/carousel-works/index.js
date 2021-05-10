@@ -1,24 +1,29 @@
 import React from 'react';
 import { Carousel, Image } from 'antd';
+import { ImagesFiles } from '@utils';
 import './style.scss';
 
 const CarouselWorks = () => {
 
-    const proyectosPath = './assets/proyectos';
-
     return (
         <Carousel  autoplay>
             <div className={'imagen-container'}>
-                <Image className={'image-carousel'}  src={`${proyectosPath}/notiplac/background.png`} />
+                <Image className={'image-carousel'}  src={ImagesFiles.notiplac_label} />
             </div>
             <div className={'imagen-container'}>
-                <Image className={'image-carousel'}  src={`${proyectosPath}/inacar/web.png`} />
+                <Image className={'image-carousel'}  src={ImagesFiles.inacar_label} />
             </div>
             <div className={'imagen-container'}>
-                <Image className={'image-carousel'}  src={`${proyectosPath}/celsia/background.png`} />
+                <Image className={'image-carousel'}  src={ImagesFiles.gsrefini_label} />
             </div>
             <div className={'imagen-container'}>
-                <Image className={'image-carousel'} src={`${proyectosPath}/autoapp/background.png`} />
+                <Image className={'image-carousel'}  src={ImagesFiles.celsia_label} />
+            </div>
+            <div className={'imagen-container'}>
+                <Image className={'image-carousel'} src={ImagesFiles.autoapp_label} />
+            </div>
+            <div className={'imagen-container'}>
+                <Image className={'image-carousel'}  src={ImagesFiles.reem_label} />
             </div>
         </Carousel>
     );

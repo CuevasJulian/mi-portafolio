@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Row, Col, Typography, Avatar,Card, Popover, Tabs } from 'antd';
 import { LinkedinOutlined } from '@ant-design/icons';
 import { SkillPopOver,CarouselWorks, TabNotiplac, TabAutopacifico, TabCelsia, TabInacar, TabGSRefini, TabReem } from './components';
+import { ImagesFiles } from '@utils';
 import './style.scss';
 const Profile = ( props ) => {
     const { Title, Paragraph,Text,Link } = Typography;
@@ -15,7 +16,7 @@ const Profile = ( props ) => {
                 <Card className={'profile-description'}>
                     <Row gutter={[10,10]} >
                         <Col sm={24} md={16} lg={8} className={'foto-container'}>
-                            <Avatar size={200}  src={'./assets/mifoto.jpg'} />
+                            <Avatar size={200}  src={ImagesFiles.mi_foto} />
                         </Col>
                         <Col sm={24} md={16} lg={16}>
                             <Title>Hello world!</Title>
@@ -48,42 +49,42 @@ const Profile = ( props ) => {
                                     <Row gutter={[10,10]}>
                                         <Col span={12}>
                                             <Card className={'skill-card'}>
-                                                    <Avatar size={80} className={'avatar-language'} src={'./assets/icons/android-icon.png'} />
+                                                    <Avatar size={80} className={'avatar-language'} src={ImagesFiles.icon_android} />
                                                 {/* <Popover content={SkillPopOver} title={'Android Nativo'} trigger={"hover"}>
                                                 </Popover> */}
                                             </Card>
                                         </Col>
                                         <Col span={12}>
                                             <Card className={'skill-card'}>
-                                                    <Avatar size={80} className={'avatar-language'} src={'./logo192.png'} />
+                                                    <Avatar size={80} className={'avatar-language'} src={ImagesFiles.icon_react} />
                                                 {/* <Popover content={SkillPopOver} title={'React JS'} trigger={"hover"}>
                                                 </Popover> */}
                                             </Card>
                                         </Col>
                                         <Col span={12}>
                                             <Card className={'skill-card'}>
-                                                    <Avatar size={80} className={'avatar-language'} src={'./assets/icons/nodejs.png'} />
+                                                    <Avatar size={80} className={'avatar-language'} src={ImagesFiles.icon_node} />
                                                 {/* <Popover content={SkillPopOver} title={'Node JS'} trigger={"hover"}>
                                                 </Popover> */}
                                             </Card>
                                         </Col>
                                         <Col span={12}>
                                             <Card className={'skill-card'}>
-                                                    <Avatar size={80} className={'avatar-language'} src={'./assets/icons/c.png'} />
+                                                    <Avatar size={80} className={'avatar-language'} src={ImagesFiles.icon_c} />
                                                 {/* <Popover content={SkillPopOver} title={'C#'} trigger={"hover"}>
                                                 </Popover> */}
                                             </Card>
                                         </Col>
                                         <Col span={12}>
                                             <Card className={'skill-card'}>
-                                                    <Avatar size={80} className={'avatar-language'} src={'./assets/icons/aws.png'} />
+                                                    <Avatar size={80} className={'avatar-language'} src={ImagesFiles.icon_aws} />
                                                 {/* <Popover content={SkillPopOver} title={'AWS'} trigger={"hover"}>
                                                 </Popover> */}
                                             </Card>
                                         </Col>
                                         <Col span={12}>
                                             <Card className={'skill-card'}>
-                                                    <Avatar size={80} className={'avatar-language'} src={'./assets/icons/mysql-icon.png'} />
+                                                    <Avatar size={80} className={'avatar-language'} src={ImagesFiles.icon_mysql} />
                                                 {/* <Popover content={SkillPopOver} title={'SQL / My SQL'} trigger={"hover"}>
                                                 </Popover> */}
                                             </Card>

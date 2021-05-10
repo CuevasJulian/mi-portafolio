@@ -5,6 +5,8 @@ module.exports = override = ( config ) => {
     alias({
         '@views':'src/views',
         '@root':'src',
+        '@public':'public',
+        "@utils":"src/utils"
     })(config);
 
     return config;

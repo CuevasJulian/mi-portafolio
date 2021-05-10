@@ -3,7 +3,9 @@
       "baseUrl": ".",
       "paths": {
         "@views": ["./src/views"],
-        "@root": ["./src"]
+        "@root": ["./src"],
+        "@public":["./public"],
+        "@utils":["./src/utils"]
       }
     }
   }
