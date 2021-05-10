@@ -52,7 +52,7 @@ const TabReem = ( props ) => {
                     negocios que se encuentran registrados al sistema.
                     <br/><br/>
                     <Title level={5}>Reem Store</Title>
-                    La aplicacón Web realizada en React encamina a los empresarios que esten registrados dentro del sistema a ser visibles sin costos exagerados en internet
+                    La aplicación Web realizada en React encamina a los empresarios que esten registrados dentro del sistema a ser visibles sin costos exagerados en internet
                     permitiendole exponer sus inventarios junto a sus listas de precios y un carro de compras, finalizando asi la union de todos los actores locales.
                 </Paragraph>
                 <Divider />
